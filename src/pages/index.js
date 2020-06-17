@@ -6,6 +6,7 @@ import Checkbox from '../components/Checkbox';
 import withAuth from '../components/withAuth';
 import { Wrapper } from '../styles/home/styled';
 import { logoutUser } from '../redux/user/actions';
+import Button from '../components/Button';
 
 const Home = (props) => {
     const [isChecked, setIsChecked] = useState();
@@ -43,6 +44,7 @@ const Home = (props) => {
                 <Input placeholder="Search input w-100" icon="search" searchInput isValid={undefined} />
                 <Input placeholder="Validation false with icon" isValid={false} icon="home" />
                 <Checkbox checked={isChecked} label="This is a checkbox label" onClick={handleClick} />
+                <Button />
             </div>
         </Fragment>
     );
