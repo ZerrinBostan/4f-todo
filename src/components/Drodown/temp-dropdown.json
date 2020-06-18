@@ -1,27 +1,30 @@
 [
     {
         "id": 0,
-        "title": "Bugün",
-        "selected": false
+        "option": "Bugün",
+        "selected": false,
+        "todoDegree": "#F7685B",
+        "slug": "/today"
     },
     {
         "id": 1,
-        "title": "Yarın",
-        "selected": false
-    },
-    {
-        "id": 2,
-        "title": "Bugün",
-        "selected": false
+        "option": "Yarın",
+        "selected": false,
+        "todoDegree": "#FFB946",
+        "slug": "/tomorrow"
     },
     {
         "id": 3,
-        "title": "Yakında",
-        "selected": false
+        "option": "Yakında",
+        "selected": false,
+        "todoDegree": "#2ED47A",
+        "slug": "/soon"
     },
     {
         "id": 4,
-        "title": "Görsel Takvim",
-        "selected": false
+        "option": "Görsel Takvim",
+        "selected": false,
+        "todoDegree": "#5BD2F7",
+        "slug": "/visual-calendar"
     }
 ]
