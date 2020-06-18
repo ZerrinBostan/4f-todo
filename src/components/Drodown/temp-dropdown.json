@@ -1,0 +1,27 @@
+[
+    {
+        "id": 0,
+        "title": "Bugün",
+        "selected": false
+    },
+    {
+        "id": 1,
+        "title": "Yarın",
+        "selected": false
+    },
+    {
+        "id": 2,
+        "title": "Bugün",
+        "selected": false
+    },
+    {
+        "id": 3,
+        "title": "Yakında",
+        "selected": false
+    },
+    {
+        "id": 4,
+        "title": "Görsel Takvim",
+        "selected": false
+    }
+]
